@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+ 
+ *,
+ *::before,
+ *::after {
+    box-sizing: inherit;
+}
+ 
+ a {
+   color: inherit;
+   text-decoration: none;
+}
+ 
+ /* чтобы img не выходили за границы контейнера*/
+  img {
+   max-width:100%
+}
